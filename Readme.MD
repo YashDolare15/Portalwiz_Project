@@ -739,28 +739,7 @@ Open the EC2 public IP on port 3000.
 
 **Note:** The existing deployment uses Jenkins and Docker on the EC2 host. Terraform infrastructure provisioning and application deployment should be configured according to the resources and variables defined in the Terraform files.
 
-# 18. Future Enhancements
 
-- Configure GitHub webhooks for automatic Jenkins builds on every push.
-- Integrate SonarQube for static code analysis.
-- Add automated API and application testing.
-- Integrate Docker image vulnerability scanning.
-- Store database credentials in AWS Secrets Manager or Systems Manager Parameter Store.
-- Introduce Amazon EKS or ECS for container orchestration.
-- Integrate CloudWatch monitoring and alerts.
-- Implement blue-green or rolling deployment strategies.
-- Configure remote Terraform state storage and state locking.
 
-# 19. Author
-
-**Yash Dolare**
-
-GitHub: [YashDolare15](https://github.com/YashDolare15)
-
-Project Repository: [Portalwiz_Project](https://github.com/YashDolare15/Portalwiz_Project)
-
-**Project Title:** Portalwiz – Infrastructure Automation and CI/CD Deployment on AWS
-
----
 
 *This project demonstrates practical implementation of Infrastructure as Code, AWS cloud services, Docker containerization, and Jenkins-based CI/CD automation.*
